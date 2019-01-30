@@ -1,0 +1,13 @@
+body {
+  background: url("../images/background-image.jpg");
+}
+
+.header {
+  font-family: "Permanent Marker", cursive;
+  color: black;
+  background-color: rgba(240, 255, 255, 0.589);
+}
+
+.header h1 {
+  font-size: 50px;
+}
