@@ -15,11 +15,39 @@
       href="https://fonts.googleapis.com/css?family=Permanent+Marker"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
     <div class="container-fluid header text-center">
       <h1>Guess the Animal - A Word Guessing Game</h1>
+    </div>
+
+    <div class="container-fluid game-card">
+      <div class="row">
+        <div class="col-12 col-sm-4 game-content">
+          <p id="help-text"><em>Press any key to get started!</em></p>
+          <p id="wins"><em>Wins: 0</em></p>
+          <p id="losses"><em>Losses: 0</em></p>
+          <p><u>Current Word</u></p>
+          <p id="text-field"></p>
+          <p id="guesses-rem">Guesses Remaining: 12</p>
+          <p>Letters Guessed:</p>
+          <p id="guessed-letters"></p>
+        </div>
+        <div class="col-12 col-sm-8 img-content invisible">
+          <img
+            id="curr-pic"
+            src="#"
+            alt="Animal Picture"
+            width="400"
+            height="400"
+          />
+        </div>
+      </div>
     </div>
     <script src="./assets/javascript/game.js"></script>
   </body>
